@@ -1,0 +1,29 @@
+id: developer.python.basis.m07
+track_id: developer
+slug: python-basis-lists-dictionaries
+
+title: Python — Lists & Dictionaries
+description: Meerdere waarden bij elkaar houden — genummerd met een lijst, of met eigen sleutelnamen in een dictionary.
+
+order: 15
+level: beginner
+status: active
+version: 1.0.0
+estimated_minutes: 20
+
+learning_objectives:
+  - Een list kunnen maken en elementen kunnen benaderen op positie
+  - Een dictionary kunnen maken en elementen kunnen benaderen op sleutel (key)
+  - Het verschil tussen beide vormen kunnen uitleggen
+
+prerequisites:
+  - python-basis-functions
+
+tags:
+  - python
+  - basis
+  - lists
+  - dictionaries
+
+next_module: python-basis-input-foutmeldingen
+template_type: lesson

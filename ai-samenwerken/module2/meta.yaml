@@ -1,0 +1,26 @@
+id: ai-samenwerken.m02
+track_id: ai-samenwerken
+slug: module2
+title: Begrijp wat je laat bouwen
+description: Leer AI-code lezen, voorspellen en onderzoeken voordat je haar accepteert of verandert.
+order: 2
+level: beginner
+status: active
+version: 1.0.0
+estimated_minutes: 50
+learning_objectives:
+- Voor het uitvoeren voorspellen wat eenvoudige code zal doen
+- Onbekende codeconstructies herkennen en gericht onderzoeken
+- AI-uitleg behandelen als een voorstel dat gecontroleerd kan worden
+- Met kleine experimenten onderzoeken welke rol een regel code heeft
+- Een eenvoudige wijziging voorspellen, uitvoeren en verklaren
+prerequisites:
+- module1
+tags:
+- ai
+- samenwerken
+- javascript
+- code-lezen
+- voorspellen
+- onderzoeken
+template_type: lesson

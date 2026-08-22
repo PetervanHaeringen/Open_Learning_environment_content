@@ -1,0 +1,30 @@
+id: developer.python.basis.m01
+track_id: developer
+slug: python-basis-installatie
+
+title: Python — Installatie & Eerste Programma
+description: Python en VS Code installeren, en je allereerste .py-bestand aan het draaien krijgen.
+
+order: 9
+level: beginner
+status: active
+version: 1.0.0
+estimated_minutes: 30
+
+learning_objectives:
+  - Python installeren en controleren dat het werkt via de terminal
+  - VS Code met de Python-extensie instellen
+  - Een .py-bestand aanmaken en uitvoeren
+  - Het verschil begrijpen tussen een editor en een taal/interpreter
+
+prerequisites:
+  - module8
+
+tags:
+  - python
+  - basis
+  - installatie
+  - vscode
+
+next_module: python-basis-variabelen-datatypes
+template_type: lesson

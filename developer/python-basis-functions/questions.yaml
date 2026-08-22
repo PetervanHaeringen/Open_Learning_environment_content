@@ -1,0 +1,51 @@
+questions:
+
+  - id: developer.python.basis.m06.q01
+    type: mcq
+    prompt: Met welk sleutelwoord definieer je een functie in Python?
+    options:
+      - id: a
+        text: def
+      - id: b
+        text: function
+      - id: c
+        text: func
+      - id: d
+        text: define
+    answer: a
+    hint: Dit is een afkorting van "define".
+    feedback:
+      correct: Klopt — je definieert een functie met def, gevolgd door de naam en haakjes.
+      incorrect: 'Python gebruikt def, niet function of func — bijvoorbeeld: def begroet():'
+    explanation: In Python definieer je een functie met def naam(parameters):, gevolgd door de ingesprongen inhoud van de functie.
+  - id: developer.python.basis.m06.q02
+    type: mcq
+    prompt: Wat geeft een Python-functie automatisch terug als er geen return in staat?
+    options:
+      - id: a
+        text: None
+      - id: b
+        text: '0'
+      - id: c
+        text: Een lege string
+      - id: d
+        text: Een foutmelding
+    answer: a
+    hint: Python heeft een speciale waarde voor "niets".
+    feedback:
+      correct: Klopt — zonder expliciete return geeft een functie automatisch None terug, wat "geen waarde" betekent.
+      incorrect: 'Een functie zonder return geeft geen foutmelding, 0 of lege string — hij geeft automatisch None terug.'
+    explanation: None is Python's manier om "geen waarde" aan te duiden. Als een functie geen return heeft, is het resultaat van die functie altijd None.
+  - id: developer.python.basis.m06.q03
+    type: truefalse
+    prompt: print() en return doen in een functie precies hetzelfde.
+    answer: false
+    explanation: 'Onjuist — print() toont direct iets in de terminal, terwijl return een waarde teruggeeft die je daarna nog verder kunt gebruiken in je code (opslaan, doorrekenen, etc.).'
+  - id: developer.python.basis.m06.q04
+    type: open
+    prompt: Waarom zou je return gebruiken in plaats van print() als je een functie schrijft die een prijs berekent?
+    sample_answer: Omdat je de berekende prijs vaak nog verder wilt gebruiken — bijvoorbeeld optellen bij een ander bedrag, opslaan in een variabele, of pas later ergens anders in het programma tonen. Met print() zou de waarde alleen in de terminal verschijnen en niet meer bruikbaar zijn in de rest van de code.
+    keywords:
+      - return
+      - verder gebruiken
+      - variabele

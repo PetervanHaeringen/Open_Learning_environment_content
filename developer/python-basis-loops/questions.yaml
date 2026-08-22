@@ -1,0 +1,51 @@
+questions:
+
+  - id: developer.python.basis.m05.q01
+    type: mcq
+    prompt: 'Je hebt for i in range(1, 4): print(i). Welke getallen worden geprint?'
+    options:
+      - id: a
+        text: '1, 2, 3'
+      - id: b
+        text: '1, 2, 3, 4'
+      - id: c
+        text: '0, 1, 2, 3'
+      - id: d
+        text: '2, 3, 4'
+    answer: a
+    hint: De eindwaarde van range() telt zelf niet mee.
+    feedback:
+      correct: Klopt — range(1, 4) genereert 1, 2 en 3; de eindwaarde 4 is niet inbegrepen.
+      incorrect: range(1, 4) stopt vlak vóór de eindwaarde — het genereert dus 1, 2 en 3, niet tot en met 4.
+    explanation: range(start, eind) genereert getallen vanaf start tot maar niet inclusief eind. range(1, 4) geeft dus 1, 2, 3.
+  - id: developer.python.basis.m05.q02
+    type: mcq
+    prompt: Hoe verhoog je in Python een variabele teller met 1 binnen een while-loop?
+    options:
+      - id: a
+        text: teller += 1
+      - id: b
+        text: teller++
+      - id: c
+        text: ++teller
+      - id: d
+        text: teller.increment()
+    answer: a
+    hint: Python heeft geen ++ operator zoals JavaScript of PHP.
+    feedback:
+      correct: Klopt — Python gebruikt += 1 (of teller = teller + 1), er is geen ++ operator.
+      incorrect: 'Python kent geen ++ operator. De juiste manier is teller += 1.'
+    explanation: In tegenstelling tot JavaScript en PHP heeft Python geen ++ of -- operator. Je gebruikt teller += 1 om op te hogen, en teller -= 1 om te verlagen.
+  - id: developer.python.basis.m05.q03
+    type: truefalse
+    prompt: Met een for-loop kun je in Python direct door een lijst lopen, zonder zelf een index of teller bij te houden.
+    answer: true
+    explanation: 'Klopt — for item in lijst: geeft je automatisch elk element van de lijst, één voor één, zonder dat je zelf een teller nodig hebt.'
+  - id: developer.python.basis.m05.q04
+    type: open
+    prompt: Je vergeet in een while-loop de teller te verhogen. Wat gebeurt er, en waarom?
+    sample_answer: De loop wordt oneindig, omdat de voorwaarde (bijvoorbeeld teller < 3) nooit onwaar wordt als teller nooit verandert — het programma blijft daardoor voor altijd dezelfde regel herhalen.
+    keywords:
+      - oneindig
+      - voorwaarde
+      - teller

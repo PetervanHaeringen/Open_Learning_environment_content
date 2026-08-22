@@ -1,0 +1,29 @@
+id: ai-samenwerken.m04
+track_id: ai-samenwerken
+slug: module4
+title: De kleinste werkende verandering
+description: Leer AI-wijzigingen klein, zichtbaar en controleerbaar te houden en beoordeel precies wat er in bestaande code verandert.
+order: 4
+level: beginner
+status: active
+version: 1.0.0
+estimated_minutes: 55
+learning_objectives:
+- Een kleine functionele wens vertalen naar een beperkte wijziging
+- Onderscheid maken tussen noodzakelijke en ongevraagde codewijzigingen
+- Een eenvoudige diff lezen en verklaren
+- Voor uitvoering voorspellen welke gevolgen een wijziging heeft
+- Het testoppervlak van een wijziging bewust klein houden
+prerequisites:
+- module1
+- module2
+- module3
+tags:
+- ai
+- samenwerken
+- javascript
+- diff
+- wijzigingen
+- scope
+- regressie
+template_type: lesson

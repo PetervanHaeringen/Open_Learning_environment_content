@@ -1,0 +1,28 @@
+id: ai-samenwerken.m03
+track_id: ai-samenwerken
+slug: module3
+title: Van wens naar softwareprobleem
+description: Leer vóór het programmeren onderzoeken wat een wijziging werkelijk raakt in een bestaand softwaresysteem.
+order: 3
+level: beginner
+status: active
+version: 1.0.0
+estimated_minutes: 55
+learning_objectives:
+- Een gebruikerswens onderscheiden van een technische oplossing
+- Voor een wijziging relevante onderdelen en afhankelijkheden onderzoeken
+- AI gebruiken om hypotheses over software-infrastructuur te vormen zonder die als feiten te behandelen
+- De impact van een kleine wijziging zichtbaar maken als een keten van softwarepaden
+- Browser DevTools gebruiken als aanvullende bron van waarneming
+prerequisites:
+- module1
+- module2
+tags:
+- ai
+- samenwerken
+- softwarearchitectuur
+- infrastructuur
+- javascript
+- devtools
+- impactanalyse
+template_type: lesson

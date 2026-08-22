@@ -1,0 +1,54 @@
+questions:
+
+  - id: developer.python.basis.m01.q01
+    type: mcq
+    prompt: Wat installeert de package manager pip voor je?
+    options:
+      - id: a
+        text: Extra functionaliteit (packages/libraries) die je aan je Python-project toevoegt
+      - id: b
+        text: VS Code zelf
+      - id: c
+        text: Een nieuwe versie van je besturingssysteem
+      - id: d
+        text: Een browser om Python-code in te draaien
+    answer: a
+    hint: Denk aan wat een "manager" doet — hij beheert iets, in dit geval extra bouwstenen voor je project.
+    feedback:
+      correct: Klopt — pip installeert en beheert externe packages die je code kan gebruiken.
+      incorrect: pip is de package manager van Python — hij installeert en beheert externe code-packages, niet VS Code of je besturingssysteem.
+    explanation: pip komt automatisch mee met een Python-installatie en wordt gebruikt om packages (herbruikbare stukken code van anderen) te installeren die je in je eigen project kunt gebruiken.
+
+  - id: developer.python.basis.m01.q02
+    type: mcq
+    prompt: Wat is de rol van de Python-extensie in VS Code?
+    options:
+      - id: a
+        text: Ze laat VS Code samenwerken met Python — kleuren, foutmeldingen, een Run-knop
+      - id: b
+        text: Ze installeert Python zelf op je computer
+      - id: c
+        text: Ze is de package manager van Python
+      - id: d
+        text: Ze is niet nodig als Python al geïnstalleerd is
+    answer: a
+    hint: De extensie is een uitbreiding van de editor, geen vervanging van Python zelf.
+    feedback:
+      correct: Klopt — de extensie maakt VS Code Python-vriendelijk, maar Python zelf moet je apart installeren.
+      incorrect: 'De extensie installeert Python niet en is geen package manager — het is een uitbreiding op VS Code die de editor laat samenwerken met een al-geïnstalleerde Python.'
+    explanation: VS Code is in principe een taal-onafhankelijke editor. De Python-extensie voegt Python-specifieke functionaliteit toe, zoals syntax-kleuring en een Run-knop, maar Python zelf moet je los installeren via python.org.
+
+  - id: developer.python.basis.m01.q03
+    type: truefalse
+    prompt: Als "python --version" een foutmelding geeft dat het commando niet herkend wordt, is er waarschijnlijk iets misgegaan met de PATH-instelling tijdens installatie.
+    answer: true
+    explanation: 'Klopt — dit is de meest voorkomende installatiefout, vooral op Windows als het vinkje "Add python.exe to PATH" niet is aangevinkt tijdens de installatie.'
+
+  - id: developer.python.basis.m01.q04
+    type: open
+    prompt: Je hebt Python en VS Code geïnstalleerd, maar de groene Run-knop verschijnt niet in je bestand. Wat zou je als eerste controleren?
+    sample_answer: Of het bestand echt de extensie .py heeft, en of de Python-extensie daadwerkelijk geïnstalleerd en actief is in VS Code — zonder de juiste bestandsextensie herkent VS Code het niet als Python-bestand.
+    keywords:
+      - .py
+      - extensie
+      - geïnstalleerd

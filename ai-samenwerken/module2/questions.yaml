@@ -1,0 +1,80 @@
+questions:
+- id: ai-samenwerken.m02.q01
+  type: mcq
+  prompt: Waarom is het nuttig om vóór het uitvoeren van code te voorspellen wat er gebeurt?
+  options:
+  - id: a
+    text: Omdat de code daardoor sneller wordt.
+  - id: b
+    text: Omdat je jouw mentale model kunt vergelijken met het werkelijke gedrag.
+  - id: c
+    text: Omdat je dan geen tests meer nodig hebt.
+  - id: d
+    text: Omdat AI dan altijd betere code schrijft.
+  answer: b
+  hint: Wat leer je van het verschil tussen verwachting en waarneming?
+  feedback:
+    correct: Precies. Het verschil tussen voorspelling en werkelijkheid laat zien waar je begrip wel of niet klopt.
+    incorrect: Voorspellen verandert de software niet; het helpt jou onderzoeken hoe goed je haar begrijpt.
+  explanation: Een voorspelling maakt je verwachting zichtbaar. Uitvoering geeft daarna bewijs waarmee je die verwachting kunt controleren.
+- id: ai-samenwerken.m02.q02
+  type: open
+  prompt: Kies één JavaScript-onderdeel uit de les dat je eerst niet volledig begreep. Hoe heb je onderzocht wat het deed?
+  sample_answer: Ik vroeg uitleg over 'for...of', veranderde daarna de lijst en keek welke waarden achtereenvolgens werden afgedrukt.
+  keywords:
+  - onderzoek
+  - uitleg
+  - test
+  - veranderen
+  explanation: Het gaat niet om welk onderdeel je koos, maar om de manier waarop je van onzekerheid naar meer begrip ging.
+- id: ai-samenwerken.m02.q03
+  type: mcq
+  prompt: Een AI geeft een heel duidelijke uitleg van een regel code. Welke conclusie is het meest zorgvuldig?
+  options:
+  - id: a
+    text: Een duidelijke uitleg is automatisch juist.
+  - id: b
+    text: De uitleg is waardeloos omdat zij van AI komt.
+  - id: c
+    text: De uitleg is een bruikbaar voorstel dat je met code en experimenten kunt controleren.
+  - id: d
+    text: Vraag dezelfde AI nogmaals of haar uitleg klopt; dan weet je het zeker.
+  answer: c
+  hint: Uitleg is ook AI-output.
+  feedback:
+    correct: Juist. Je kunt de uitleg gebruiken én controleren.
+    incorrect: Overtuigende formulering is geen bewijs op zichzelf.
+  explanation: AI-uitleg kan zeer nuttig zijn, maar net als code kun je haar toetsen aan observeerbaar gedrag en andere bronnen.
+- id: ai-samenwerken.m02.q04
+  type: open
+  prompt: Beschrijf met je eigen woorden wat het programma met de prijzen en 'totaal' doet. Gebruik liever gewone taal dan JavaScript-termen.
+  sample_answer: Het programma begint op nul, gaat langs iedere prijs en telt elke prijs bij het lopende totaal op. Daarna toont het de som.
+  keywords:
+  - prijs
+  - totaal
+  - optellen
+  explanation: Met eigen woorden beschrijven helpt zichtbaar maken of je een mentaal model van het programma hebt.
+- id: ai-samenwerken.m02.q05
+  type: truefalse
+  prompt: Je moet iedere regel code zelf uit je hoofd kunnen schrijven voordat je AI mag gebruiken bij softwareontwikkeling.
+  answer: false
+  explanation: AI kan je juist helpen nieuwe constructies te leren. Belangrijker is dat je herkent wat je niet begrijpt en weet hoe je de werking kunt onderzoeken.
+- id: ai-samenwerken.m02.q06
+  type: open
+  prompt: 'Bij de kleine uitdaging: welke wijziging stelde AI voor, wat voorspelde jij dat de uitkomst zou zijn en wat gebeurde er werkelijk?'
+  sample_answer: Beschrijf de relevante wijziging, je voorspelling en het resultaat van de uitvoering.
+  keywords:
+  - wijziging
+  - voorspelling
+  - resultaat
+  explanation: Hier oefenen we opnieuw de cyclus lezen → voorspellen → uitvoeren → verklaren.
+- id: ai-samenwerken.m02.q07
+  type: open
+  prompt: Wanneer vind jij dat je code voldoende begrijpt om er verantwoordelijkheid voor te nemen?
+  sample_answer: Een persoonlijk antwoord kan bijvoorbeeld noemen dat je de hoofdlijn kunt uitleggen, belangrijke regels kunt onderzoeken en tests kunt bedenken.
+  keywords:
+  - begrijpen
+  - uitleggen
+  - testen
+  - verantwoordelijkheid
+  explanation: Er is geen universele grens. Het doel is dat je bewust nadenkt over begrip en verantwoordelijkheid.

@@ -1,0 +1,51 @@
+questions:
+
+  - id: developer.python.basis.m08.q01
+    type: mcq
+    prompt: Welk datatype geeft input() altijd terug, ongeacht wat de gebruiker typt?
+    options:
+      - id: a
+        text: str (tekst)
+      - id: b
+        text: int (geheel getal)
+      - id: c
+        text: float (kommagetal)
+      - id: d
+        text: Het datatype dat het beste past bij de invoer
+    answer: a
+    hint: Zelfs als iemand "42" typt, blijft het voor Python letterlijk tekst totdat jij het omzet.
+    feedback:
+      correct: Klopt — input() geeft altijd een string terug. Wil je rekenen, dan moet je zelf omzetten met bijvoorbeeld int() of float().
+      incorrect: 'input() geeft altijd een string terug, ook als de gebruiker een getal typt — je moet zelf omzetten met int() of float() om ermee te kunnen rekenen.'
+    explanation: input() behandelt alle invoer als tekst (str), ongeacht wat de gebruiker typt. Om met de invoer te rekenen, moet je het expliciet omzetten, bijvoorbeeld met int(invoer).
+  - id: developer.python.basis.m08.q02
+    type: mcq
+    prompt: In welke volgorde lees je een Python-traceback het beste om snel te vinden wat er misging?
+    options:
+      - id: a
+        text: Van onder naar boven — de laatste regel zegt wát er misging
+      - id: b
+        text: Van boven naar beneden, net als een gewoon verhaal
+      - id: c
+        text: Alleen de eerste regel is relevant
+      - id: d
+        text: De volgorde maakt niet uit
+    answer: a
+    hint: Denk aan de opbouw uit de lesstof — waar staat de conclusie?
+    feedback:
+      correct: Klopt — de laatste regel van een traceback bevat het type fout en de beschrijving, en is meestal het beste startpunt.
+      incorrect: De laatste regel van een traceback geeft het type fout en de beschrijving, dus lees een traceback het handigst van onder naar boven.
+    explanation: 'De laatste regel van een traceback ("TypeError: ...") vertelt je direct wát er misging. De regels erboven laten zien waar (welk bestand, welke regel) dat gebeurde.'
+  - id: developer.python.basis.m08.q03
+    type: truefalse
+    prompt: 'De foutmelding TypeError: can only concatenate str (not "int") to str betekent dat je probeerde tekst en een getal met + bij elkaar op te tellen zonder eerst om te zetten.'
+    answer: true
+    explanation: 'Klopt — deze specifieke TypeError ontstaat wanneer je met + tekst (str) en een getal (int) probeert te combineren. De oplossing is het getal eerst omzetten met str(), of de tekst omzetten met int()/float().'
+  - id: developer.python.basis.m08.q04
+    type: open
+    prompt: 'Je krijgt de foutmelding "TypeError: can only concatenate str (not ''int'') to str" op regel 7. Wat doe je als eerste stap om dit op te lossen?'
+    sample_answer: Ik kijk naar regel 7 in mijn code om te zien waar ik tekst en een getal probeer te combineren met +, en zet vervolgens de juiste kant om — bijvoorbeeld met int() als het een string was die eigenlijk een getal moest zijn, of met str() als ik het getal juist in een tekst wilde plakken.
+    keywords:
+      - regel
+      - omzetten
+      - int of str

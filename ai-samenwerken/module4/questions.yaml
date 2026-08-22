@@ -1,0 +1,132 @@
+questions:
+- id: ai-samenwerken.m04.q01
+  type: mcq
+  prompt: Waarom is het verstandig om vóór een wijziging eerst vast te stellen wat al werkt?
+  options:
+  - id: a
+    text: Omdat je dan geen AI meer nodig hebt.
+  - id: b
+    text: Omdat je een uitgangssituatie hebt waarmee je gedrag na de wijziging kunt vergelijken.
+  - id: c
+    text: Omdat bestaande software nooit veranderd mag worden.
+  - id: d
+    text: Omdat alle bugs dan vanzelf zichtbaar worden.
+  answer: b
+  explanation: Zonder uitgangssituatie is moeilijker te bepalen of bestaand gedrag door jouw wijziging is veranderd.
+- id: ai-samenwerken.m04.q02
+  type: mcq
+  prompt: Een AI maakt een klikbare knop met een div, CSS en JavaScript. De knop werkt. Wat is de meest zorgvuldige volgende stap?
+  options:
+  - id: a
+    text: De oplossing accepteren, want werkende code is voldoende.
+  - id: b
+    text: Iedere div automatisch vervangen door een button.
+  - id: c
+    text: Onderzoeken of een standaard HTML-element zoals button beter past bij de functie.
+  - id: d
+    text: Meer JavaScript toevoegen om de div betrouwbaarder te maken.
+  answer: c
+  explanation: Werkende code is niet automatisch de meest passende oplossing. Onderzoek eerst of het platform al een bouwsteen heeft die de bedoeling en het gewenste gedrag ondersteunt.
+- id: ai-samenwerken.m04.q03
+  type: mcq
+  prompt: Waarom kan een button voor een knop een betere keuze zijn dan een klikbare div?
+  options:
+  - id: a
+    text: Een div kan nooit op een muisklik reageren.
+  - id: b
+    text: Een button heeft al betekenis en standaardgedrag dat bij een knop hoort.
+  - id: c
+    text: JavaScript werkt niet met div-elementen.
+  - id: d
+    text: Een button heeft nooit CSS nodig.
+  answer: b
+  explanation: Een button brengt al semantiek en browsergedrag mee dat bij een knop hoort. Bij een generieke div moet je benodigde functionaliteit vaker zelf toevoegen.
+- id: ai-samenwerken.m04.q04
+  type: mcq
+  prompt: Wat laat een diff vooral zien?
+  options:
+  - id: a
+    text: Welke programmeertaal het beste is.
+  - id: b
+    text: Welke regels tussen twee versies zijn toegevoegd, verwijderd of gewijzigd.
+  - id: c
+    text: Of software volledig foutloos is.
+  - id: d
+    text: Wie de beste programmeur is.
+  answer: b
+  explanation: Een diff richt de aandacht op het verschil tussen versies.
+- id: ai-samenwerken.m04.q05
+  type: mcq
+  prompt: Je krijgt van AI alleen een diff van een wijziging. Waarom kun je het getoonde fragment niet altijd zelfstandig uitvoeren?
+  options:
+  - id: a
+    text: Een diff kan alleen CSS bevatten.
+  - id: b
+    text: Een diff werkt alleen binnen GitHub.
+  - id: c
+    text: De wijziging kan afhankelijk zijn van code en context die elders in het programma staat.
+  - id: d
+    text: AI-diffs bevatten nooit geldige programmeercode.
+  answer: c
+  explanation: Een diff beschrijft vooral wat verandert. De gewijzigde regels kunnen afhankelijk zijn van variabelen, functies, HTML of andere context die niet in het fragment wordt getoond.
+- id: ai-samenwerken.m04.q06
+  type: open
+  prompt: Welke gevallen heb je getest bij de wijziging voor een leeg naamveld, en waarom juist die?
+  sample_answer: Bijvoorbeeld leeg, gewone naam en alleen spaties, zodat zowel het nieuwe als bestaande gedrag wordt onderzocht.
+  keywords:
+  - leeg
+  - naam
+  - spaties
+  - testen
+- id: ai-samenwerken.m04.q07
+  type: mcq
+  prompt: AI stelt naast de gevraagde validatie ook nieuwe CSS, live-validatie en een foutenteller voor. Wat is een zorgvuldige eerste stap?
+  options:
+  - id: a
+    text: Alles meteen invoeren omdat AI het aanbeveelt.
+  - id: b
+    text: Alle voorstellen weigeren.
+  - id: c
+    text: Onderscheiden wat noodzakelijk is voor de huidige wens en wat een aparte verbetering kan zijn.
+  - id: d
+    text: AI vragen nog meer verbeteringen toe te voegen.
+  answer: c
+  explanation: Zo blijft de scope van de huidige verandering zichtbaar zonder mogelijke verbeteringen te negeren.
+- id: ai-samenwerken.m04.q08
+  type: truefalse
+  prompt: Een oplossing die minder regels verandert is altijd beter dan een oplossing die meer regels verandert.
+  answer: false
+  explanation: Aantal regels bepaalt niet automatisch kwaliteit. Een grotere wijziging betekent wel dat er doorgaans meer gevolgen onderzocht moeten worden.
+- id: ai-samenwerken.m04.q09
+  type: open
+  prompt: Leg in je eigen woorden uit waarom extra wijzigingen het testoppervlak kunnen vergroten.
+  sample_answer: Omdat iedere extra veranderde functie, pagina of gegevensstroom nieuw of bestaand gedrag kan beïnvloeden dat gecontroleerd moet worden.
+  keywords:
+  - wijziging
+  - testen
+  - gedrag
+  - onderdelen
+- id: ai-samenwerken.m04.q10
+  type: mcq
+  prompt: Welke commitbeschrijving maakt het doel van de wijziging het duidelijkst?
+  options:
+  - id: a
+    text: code verbeterd
+  - id: b
+    text: formulier aangepast
+  - id: c
+    text: toon melding wanneer naamveld leeg is
+  - id: d
+    text: nieuwe versie
+  answer: c
+  explanation: Deze beschrijving benoemt concreet welk gedrag is veranderd.
+- id: ai-samenwerken.m04.q11
+  type: open
+  prompt: Formuleer één instructie waarmee jij een AI voortaan kunt vragen eerst te onderzoeken wat al bestaat en daarna een wijziging bewust klein en controleerbaar te houden.
+  sample_answer: Onderzoek eerst welke bestaande bouwstenen of functies de wens al ondersteunen. Stel daarna de kleinste passende wijziging voor en noem andere verbeteringen apart zonder ze meteen door te voeren.
+  keywords:
+  - bestaande
+  - bouwstenen
+  - kleinste
+  - wijziging
+  - verbeteringen

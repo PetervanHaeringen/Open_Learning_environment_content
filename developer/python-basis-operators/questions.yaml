@@ -1,0 +1,51 @@
+questions:
+
+  - id: developer.python.basis.m03.q01
+    type: mcq
+    prompt: Wat is het verschil tussen / en // in Python?
+    options:
+      - id: a
+        text: / geeft altijd een kommagetal, // rondt af naar beneden naar een geheel getal
+      - id: b
+        text: Er is geen verschil, beide doen hetzelfde
+      - id: c
+        text: / is voor gehele getallen, // is voor kommagetallen
+      - id: d
+        text: // is de modulo-operator
+    answer: a
+    hint: Denk aan wat er gebeurt met de uitkomst van 10 gedeeld door 3.
+    feedback:
+      correct: Klopt — 10 / 3 geeft 3.3333..., terwijl 10 // 3 afrondt naar 3.
+      incorrect: '/ geeft altijd een float terug (ook bij een rond getal), // rondt de uitkomst af naar beneden naar een geheel getal. % is de modulo-operator.'
+    explanation: '/ is "gewone" deling en geeft altijd een float terug. // is gehele deling en rondt naar beneden af. % geeft de rest na deling (modulo), niet // .'
+  - id: developer.python.basis.m03.q02
+    type: mcq
+    prompt: Hoe schrijf je "en" (logische AND) in een Python-voorwaarde?
+    options:
+      - id: a
+        text: and
+      - id: b
+        text: '&&'
+      - id: c
+        text: '&'
+      - id: d
+        text: AND (met hoofdletters)
+    answer: a
+    hint: Python gebruikt hiervoor een gewoon Engels woord, geen symbolen.
+    feedback:
+      correct: Klopt — Python gebruikt de woorden and, or en not in plaats van symbolen zoals && en ||.
+      incorrect: 'Python gebruikt het woord and (kleine letters), niet symbolen zoals && of &.'
+    explanation: In tegenstelling tot JavaScript en PHP gebruikt Python leesbare woorden voor logische operators — and, or en not — in plaats van &&, || en !.
+  - id: developer.python.basis.m03.q03
+    type: truefalse
+    prompt: In Python bestaat er, net als in JavaScript, een apart === voor een striktere vergelijking dan ==.
+    answer: false
+    explanation: Onjuist — Python heeft maar één gelijkheidsoperator, ==, die zowel waarde als type in één keer vergelijkt. Er is geen apart === nodig.
+  - id: developer.python.basis.m03.q04
+    type: open
+    prompt: Je wilt weten hoeveel volle weken er in 17 dagen zitten, en hoeveel dagen er dan nog overblijven. Welke twee operators gebruik je daarvoor?
+    sample_answer: '17 // 7 geeft het aantal volle weken (2), en 17 % 7 geeft het aantal overblijvende dagen (3). // rondt af naar beneden, % geeft de rest na deling.'
+    keywords:
+      - '//'
+      - '%'
+      - rest

@@ -1,0 +1,51 @@
+questions:
+
+  - id: developer.python.basis.m07.q01
+    type: mcq
+    prompt: Hoe voeg je een element toe aan het einde van een bestaande list in Python?
+    options:
+      - id: a
+        text: lijst.append(waarde)
+      - id: b
+        text: lijst.add(waarde)
+      - id: c
+        text: lijst.push(waarde)
+      - id: d
+        text: lijst + waarde
+    answer: a
+    hint: Dit is dezelfde methode-naam als bij het toevoegen van een bijlage.
+    feedback:
+      correct: Klopt — .append() voegt een waarde toe aan het einde van een list.
+      incorrect: 'In Python gebruik je .append(), niet .add() of .push() (dat laatste ken je misschien van JavaScript-arrays).'
+    explanation: List.append(waarde) voegt de opgegeven waarde toe aan het einde van de list. .push() bestaat niet in Python — dat is de JavaScript-variant.
+  - id: developer.python.basis.m07.q02
+    type: mcq
+    prompt: 'Hoe benader je de waarde "Anna" in cursist = {"naam": "Anna", "leeftijd": 22}?'
+    options:
+      - id: a
+        text: cursist["naam"]
+      - id: b
+        text: cursist[0]
+      - id: c
+        text: cursist.naam
+      - id: d
+        text: cursist->naam
+    answer: a
+    hint: Dit is een dictionary — de sleutel is de naam die je zelf hebt gegeven.
+    feedback:
+      correct: Klopt — bij een dictionary gebruik je de sleutel (key) tussen vierkante haken om de waarde te benaderen.
+      incorrect: 'Bij een dictionary benader je een waarde via de sleutel: cursist["naam"], niet via een numerieke index of puntnotatie.'
+    explanation: Bij dictionaries gebruik je de zelfgekozen sleutel tussen vierkante haken, zoals cursist["naam"], in plaats van een numerieke index zoals bij een list.
+  - id: developer.python.basis.m07.q03
+    type: truefalse
+    prompt: Met .items() kun je een dictionary doorlopen en tegelijk zowel de sleutel als de waarde van elk paar opvragen.
+    answer: true
+    explanation: 'Klopt — for sleutel, waarde in dictionary.items(): geeft je bij elke stap zowel de sleutel als de bijbehorende waarde.'
+  - id: developer.python.basis.m07.q04
+    type: open
+    prompt: Je wilt per cursist een naam, een leeftijd en een track (bijv. developer) bijhouden in één geheel. Zou je een list of een dictionary gebruiken, en waarom?
+    sample_answer: Een dictionary, omdat elk stukje data een eigen betekenis heeft (naam, leeftijd, track) en je die duidelijker kunt benaderen via een herkenbare sleutel zoals cursist["naam"] dan via een onduidelijk nummer zoals cursist[0].
+    keywords:
+      - dictionary
+      - sleutel
+      - betekenis

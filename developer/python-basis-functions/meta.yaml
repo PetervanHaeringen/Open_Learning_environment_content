@@ -1,0 +1,28 @@
+id: developer.python.basis.m06
+track_id: developer
+slug: python-basis-functions
+
+title: Python — Functions
+description: Herbruikbare stukken code maken met def, parameters en return-waarden.
+
+order: 14
+level: beginner
+status: active
+version: 1.0.0
+estimated_minutes: 20
+
+learning_objectives:
+  - Een eigen functie kunnen definiëren met def en kunnen aanroepen
+  - Parameters (inclusief een standaardwaarde) kunnen gebruiken
+  - Het verschil tussen print en return in een functie kunnen uitleggen
+
+prerequisites:
+  - python-basis-loops
+
+tags:
+  - python
+  - basis
+  - functions
+
+next_module: python-basis-lists-dictionaries
+template_type: lesson

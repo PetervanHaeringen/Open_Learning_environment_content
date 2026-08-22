@@ -1,0 +1,51 @@
+questions:
+
+  - id: developer.python.basis.m02.q01
+    type: mcq
+    prompt: Hoe schrijf je de boolean-waarde "waar" in Python?
+    options:
+      - id: a
+        text: 'True'
+      - id: b
+        text: 'true'
+      - id: c
+        text: 'TRUE'
+      - id: d
+        text: '1 (alleen als getal, nooit als woord)'
+    answer: a
+    hint: Python is hoofdlettergevoelig — let op welke letter een hoofdletter is.
+    feedback:
+      correct: Klopt — in Python schrijf je True en False altijd met een hoofdletter aan het begin.
+      incorrect: 'Python gebruikt True/False met een hoofdletter aan het begin — dat is anders dan bijvoorbeeld JavaScript, waar true/false met kleine letter is.'
+    explanation: In Python worden de boolean-waarden True en False met een hoofdletter geschreven. Dit is een van de eerste dingen die opvalt als je van een andere taal komt.
+  - id: developer.python.basis.m02.q02
+    type: mcq
+    prompt: 'Je hebt naam = "Bart" en daarna print(f"Hoi {naam}"). Wat print dit?'
+    options:
+      - id: a
+        text: 'Hoi Bart'
+      - id: b
+        text: 'Hoi {naam}'
+      - id: c
+        text: 'Hoi f"Bart"'
+      - id: d
+        text: Een foutmelding
+    answer: a
+    hint: Een f-string vervangt wat tussen accolades staat door de waarde van die variabele.
+    feedback:
+      correct: Klopt — de f voor de string zorgt ervoor dat {naam} vervangen wordt door de waarde van de variabele naam.
+      incorrect: Een f-string (met de f ervoor) vervangt {naam} automatisch door de waarde van de variabele — het resultaat is dus "Hoi Bart".
+    explanation: De f voor een string maakt er een f-string van, waarbij alles tussen accolades als Python-code wordt uitgerekend en in de tekst geplakt.
+  - id: developer.python.basis.m02.q03
+    type: truefalse
+    prompt: In Python moet je bij het aanmaken van een variabele altijd eerst het type opgeven, bijvoorbeeld "int leeftijd = 5".
+    answer: false
+    explanation: 'Onjuist — Python bepaalt het datatype automatisch op basis van de waarde die je toekent. Je schrijft gewoon leeftijd = 5, zonder int, let of var ervoor.'
+  - id: developer.python.basis.m02.q04
+    type: open
+    prompt: Je hebt stad = "Alkmaar". Hoe print je met een f-string de zin "Ik woon in Alkmaar."?
+    sample_answer: 'print(f"Ik woon in {stad}.") — de f voor de string maakt dat {stad} vervangen wordt door de waarde van de variabele.'
+    keywords:
+      - f-string
+      - accolades
+      - variabele

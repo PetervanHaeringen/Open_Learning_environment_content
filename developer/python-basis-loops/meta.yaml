@@ -1,0 +1,28 @@
+id: developer.python.basis.m05
+track_id: developer
+slug: python-basis-loops
+
+title: Python — Loops (for, while)
+description: Herhalen met for en while, en hoe range() werkt.
+
+order: 13
+level: beginner
+status: active
+version: 1.0.0
+estimated_minutes: 20
+
+learning_objectives:
+  - Een for-loop kunnen opzetten met range()
+  - Een while-loop kunnen gebruiken als het aantal herhalingen niet vooraf vaststaat
+  - Door een lijst kunnen loopen met een for-loop
+
+prerequisites:
+  - python-basis-conditionals
+
+tags:
+  - python
+  - basis
+  - loops
+
+next_module: python-basis-functions
+template_type: lesson

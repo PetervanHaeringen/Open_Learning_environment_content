@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Git & GitHub — Leerpad{% endblock %}
+
+{% block content %}
+<div class="learning-path">
+
+    <h1>🌿 Git & GitHub — Leerpad</h1>
+    <p class="lead">
+        Van geen idee wat Git is tot professioneel werken in een team.
+        Doorloop de modules op volgorde.
+    </p>
+
+    <div class="grid">
+        {% for module in modules %}
+        {% if module.status == "active" %}
+        <div class="tile">
+            <div class="step-number">Stap {{ module.order }}</div>
+            <h2>{{ module.title }}</h2>
+
+            <a class="open-btn" href="{{ url_for('instructions.git_content_module', module_name=module.folder) }}">
+                Open module
+            </a>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+
+</div>
+{% endblock %}

@@ -1,0 +1,51 @@
+questions:
+
+  - id: developer.python.basis.m04.q01
+    type: mcq
+    prompt: Hoe geeft Python aan welke regels bij een if-blok horen?
+    options:
+      - id: a
+        text: Door inspringing (indentatie) — geen accolades nodig
+      - id: b
+        text: Met accolades { }, net als JavaScript
+      - id: c
+        text: Met het woord "end" aan het einde van het blok
+      - id: d
+        text: Met puntkomma's tussen elke regel
+    answer: a
+    hint: Dit is het meest opvallende verschil met JavaScript en PHP.
+    feedback:
+      correct: Klopt — Python gebruikt inspringing als onderdeel van de syntax zelf, in plaats van accolades.
+      incorrect: 'Python heeft geen accolades of end-woorden nodig: de inspringing zelf bepaalt welke regels bij het blok horen.'
+    explanation: In Python is inspringing geen stijlkeuze maar onderdeel van de taal zelf. Regels die even ver zijn ingesprongen onder een if horen bij dat blok; zodra de inspringing stopt, is het blok voorbij.
+  - id: developer.python.basis.m04.q02
+    type: mcq
+    prompt: Wat gebeurt er als je in Python een regel verkeerd inspringt binnen een if-blok?
+    options:
+      - id: a
+        text: Python geeft een IndentationError
+      - id: b
+        text: Python negeert het probleem en voert de code toch uit
+      - id: c
+        text: Python springt automatisch goed in
+      - id: d
+        text: Er gebeurt niets, inspringing is optioneel
+    answer: a
+    hint: Denk aan wat je leerde over foutmeldingen als informatie, niet als mislukking.
+    feedback:
+      correct: Klopt — een IndentationError is een van de meest voorkomende, en volkomen normale, eerste foutmeldingen bij Python.
+      incorrect: Verkeerde inspringing levert een IndentationError op — Python is hier strikt in, omdat inspringing onderdeel is van de syntax.
+    explanation: Omdat inspringing in Python bepaalt welke code bij elkaar hoort, geeft een verkeerd ingesprongen regel een IndentationError. Dit is een van de eerste foutmeldingen die vrijwel iedereen tegenkomt.
+  - id: developer.python.basis.m04.q03
+    type: truefalse
+    prompt: In Python schrijf je "anders als" met het woord elseif, net als in PHP.
+    answer: false
+    explanation: Onjuist — Python gebruikt elif (een samentrekking van "else if"), niet elseif zoals PHP of else if zoals JavaScript.
+  - id: developer.python.basis.m04.q04
+    type: open
+    prompt: Waarom is het mengen van tabs en spaties in Python een veelgemaakte fout, en hoe voorkom je dat het meeste eenvoudig?
+    sample_answer: Omdat inspringing letterlijk onderdeel is van de code-structuur, kan een mix van tabs en spaties ervoor zorgen dat regels er visueel hetzelfde uitzien maar door Python toch als verschillend ingesprongen worden gezien, wat een IndentationError geeft. Je voorkomt dit door consistent Tab te gebruiken en de editor (VS Code) het inspringen te laten afhandelen.
+    keywords:
+      - tabs
+      - spaties
+      - inconsistent

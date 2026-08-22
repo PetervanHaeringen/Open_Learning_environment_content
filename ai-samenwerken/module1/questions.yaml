@@ -1,0 +1,84 @@
+questions:
+- id: ai-samenwerken.m01.q01
+  type: open
+  prompt: Wat was voor jou het opvallendste verschil tussen de twee AI-oplossingen?
+  sample_answer: Bijvoorbeeld een verschil in structuur, gebruikte functies, leesbaarheid of hoeveelheid code.
+  keywords:
+  - verschil
+  - code
+  - oplossing
+  explanation: Er is geen voorgeschreven verschil. Beschrijf concreet wat je zelf hebt waargenomen.
+- id: ai-samenwerken.m01.q02
+  type: open
+  prompt: Beschrijf één voorspelling die je vóór het uitvoeren maakte en wat er tijdens het testen werkelijk gebeurde.
+  sample_answer: Ik verwachtte dezelfde uitvoer bij beide oplossingen en heb daarna gecontroleerd of dat werkelijk zo was.
+  keywords:
+  - voorspelling
+  - test
+  - resultaat
+  explanation: Door voorspelling en werkelijk gedrag naast elkaar te leggen, leer je bewuster naar code kijken.
+- id: ai-samenwerken.m01.q03
+  type: open
+  prompt: Welke oplossing zou jij accepteren in een echt softwareproject, of zou je geen van beide accepteren? Leg uit waarom.
+  sample_answer: Een zorgvuldig antwoord noemt concrete eigenschappen zoals begrijpelijkheid, eenvoud, leesbaarheid of onderhoudbaarheid.
+  keywords:
+  - begrijpelijkheid
+  - leesbaarheid
+  - onderhoudbaarheid
+  explanation: Werkende code is niet automatisch goede code. De reden voor je keuze is belangrijker dan welke oplossing je kiest.
+- id: ai-samenwerken.m01.q04
+  type: open
+  prompt: Was er code die je niet begreep? Zo ja, wat heb je gedaan om te onderzoeken wat die code deed?
+  sample_answer: Ik heb de regel onderzocht, eventueel uitleg gevraagd en daarna met andere waarden getest wat er werkelijk gebeurde.
+  keywords:
+  - begrijpen
+  - uitleg
+  - controleren
+  - testen
+  explanation: Niet begrijpen is geen probleem. Onbegrepen code zonder onderzoek overnemen kan dat wel zijn.
+- id: ai-samenwerken.m01.q05
+  type: mcq
+  prompt: Twee AI-systemen krijgen exact dezelfde programmeeropdracht en leveren verschillende werkende oplossingen. Welke conclusie is het meest zorgvuldig?
+  options:
+  - id: a
+    text: Een van de AI-systemen moet fout zijn.
+  - id: b
+    text: De langste oplossing is waarschijnlijk de beste.
+  - id: c
+    text: Een programmeeropdracht kan op verschillende manieren worden geïnterpreteerd en opgelost.
+  - id: d
+    text: Je moet de opdracht aanpassen totdat beide AI-systemen dezelfde code produceren.
+  answer: c
+  hint: Verschillende oplossingen kunnen allebei geldig zijn.
+  feedback:
+    correct: Precies. Verschil is op zichzelf geen bewijs dat één oplossing fout is.
+    incorrect: Kijk naar wat je in het experiment hebt gezien. Was er maar één mogelijke oplossing?
+  explanation: Softwareproblemen hebben vaak meerdere mogelijke oplossingen. Die moeten op gedrag en kwaliteit worden onderzocht.
+- id: ai-samenwerken.m01.q06
+  type: mcq
+  prompt: Een door AI gemaakt programma draait één keer zonder foutmelding. Wat weet je daarmee zeker?
+  options:
+  - id: a
+    text: De code is correct.
+  - id: b
+    text: De code is veilig.
+  - id: c
+    text: De code is goed onderhoudbaar.
+  - id: d
+    text: Alleen dat deze uitvoering niet is gecrasht.
+  answer: d
+  hint: Denk aan het verschil tussen één geslaagde uitvoering en bewijs over andere situaties.
+  feedback:
+    correct: Juist. Eén succesvolle uitvoering zegt maar iets over die uitvoering.
+    incorrect: Een programma kan draaien en toch fouten of kwaliteitsproblemen bevatten.
+  explanation: Uitvoeren levert bewijs, maar de reikwijdte van dat bewijs is beperkt.
+- id: ai-samenwerken.m01.q07
+  type: open
+  prompt: Formuleer één regel die jij jezelf voortaan wilt geven wanneer je AI gebruikt voor softwareontwikkeling.
+  sample_answer: 'Bijvoorbeeld: ik lees AI-code eerst en probeer te begrijpen wat er gebeurt voordat ik de code accepteer.'
+  keywords:
+  - ai
+  - controleren
+  - begrijpen
+  - testen
+  explanation: Er is geen verplichte formulering. Deze regel is jouw persoonlijke conclusie uit het experiment.

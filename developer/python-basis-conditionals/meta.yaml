@@ -1,0 +1,28 @@
+id: developer.python.basis.m04
+track_id: developer
+slug: python-basis-conditionals
+
+title: Python — Conditionals (if/elif/else)
+description: Beslissingen laten nemen door je code — en waarom inspringen in Python niet optioneel is.
+
+order: 12
+level: beginner
+status: active
+version: 1.0.0
+estimated_minutes: 20
+
+learning_objectives:
+  - Een if/elif/else-structuur kunnen opzetten
+  - Begrijpen waarom indentatie in Python verplicht is (geen accolades)
+  - Voorwaarden kunnen combineren met and/or/not
+
+prerequisites:
+  - python-basis-operators
+
+tags:
+  - python
+  - basis
+  - conditionals
+
+next_module: python-basis-loops
+template_type: lesson

@@ -1,0 +1,28 @@
+id: developer.python.basis.m02
+track_id: developer
+slug: python-basis-variabelen-datatypes
+
+title: Python — Variabelen & Datatypes
+description: Waarden vastleggen zonder gedoe met haakjes of puntkomma's — de basis-datatypes van Python.
+
+order: 10
+level: beginner
+status: active
+version: 1.0.0
+estimated_minutes: 20
+
+learning_objectives:
+  - Een variabele kunnen aanmaken in Python
+  - De basis-datatypes (str, int, float, bool) kunnen herkennen
+  - Tekst en variabelen kunnen combineren met f-strings
+
+prerequisites:
+  - python-basis-installatie
+
+tags:
+  - python
+  - basis
+  - variabelen
+
+next_module: python-basis-operators
+template_type: lesson

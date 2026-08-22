@@ -1,0 +1,26 @@
+id: ai-samenwerken.m01
+track_id: ai-samenwerken
+slug: module1
+title: Eén opdracht, meerdere AI's
+description: Geef verschillende AI-systemen exact dezelfde JavaScript-opdracht, vergelijk hun oplossingen en onderzoek wat er werkelijk gebeurt.
+order: 1
+level: beginner
+status: active
+version: 1.1.0
+estimated_minutes: 45
+learning_objectives:
+- AI-output van verschillende systemen zorgvuldig kunnen vergelijken
+- Verschillen in programmeeroplossingen kunnen herkennen en beschrijven
+- Onderscheid maken tussen code die draait en code die een goede oplossing vormt
+- AI-code eerst lezen en voorspellen voordat deze wordt uitgevoerd
+- Eigen waarnemingen gebruiken om een eerste persoonlijke samenwerkingsregel te formuleren
+prerequisites: []
+tags:
+- ai
+- samenwerken
+- javascript
+- softwareontwikkeling
+- kritisch-denken
+- testen
+next_module: module2
+template_type: lesson

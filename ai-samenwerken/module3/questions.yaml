@@ -1,0 +1,81 @@
+questions:
+- id: ai-samenwerken.m03.q01
+  type: mcq
+  prompt: 'Een gebruiker zegt: ''Ik wil mijn begroeting kunnen veranderen.'' Welke uitspraak is het meest zorgvuldig?'
+  options:
+  - id: a
+    text: De gebruiker heeft om een knop gevraagd.
+  - id: b
+    text: De gebruiker heeft om een database gevraagd.
+  - id: c
+    text: De gebruiker beschrijft een wens; knop, database of instellingenpagina zijn mogelijke oplossingen.
+  - id: d
+    text: De gebruiker heeft al voldoende technische specificaties gegeven.
+  answer: c
+  explanation: Een wens beschrijft het gewenste effect. De technische vorm moet nog worden onderzocht.
+- id: ai-samenwerken.m03.q02
+  type: open
+  prompt: Welke drie onderdelen zou jij eerst onderzoeken voordat je AI code laat schrijven voor een wijziging in bestaande software? Leg kort uit waarom.
+  sample_answer: Bijvoorbeeld de huidige route, het template en de gegevensbron, omdat de wijziging via die onderdelen zichtbaar en bruikbaar wordt.
+  keywords:
+  - onderzoek
+  - bestaand
+  - route
+  - template
+  - gegevens
+- id: ai-samenwerken.m03.q03
+  type: mcq
+  prompt: Een AI zegt dat een bestaande webapp waarschijnlijk een database gebruikt voor gebruikersinstellingen. Wat weet je dan?
+  options:
+  - id: a
+    text: Dat de webapp zeker een database gebruikt.
+  - id: b
+    text: Dat de AI een mogelijke hypothese geeft die gecontroleerd moet worden.
+  - id: c
+    text: Dat je meteen een nieuwe tabel moet maken.
+  - id: d
+    text: Dat de AI toegang heeft tot de broncode.
+  answer: b
+  explanation: Een plausibele project-specifieke aanname moet aan de echte software worden getoetst.
+- id: ai-samenwerken.m03.q04
+  type: open
+  prompt: Waarom veranderde in het JavaScript-voorbeeld zowel de begroeting als de voortgang toen alleen de naam veranderde?
+  sample_answer: Beide functies gebruiken dezelfde naam uit hetzelfde gebruiker-object en zijn dus van die gegevens afhankelijk.
+  keywords:
+  - gegevens
+  - afhankelijk
+- id: ai-samenwerken.m03.q05
+  type: mcq
+  prompt: Waarom is 'de nieuwe leerlijn staat in het menu' nog geen bewijs dat de hele feature werkt?
+  options:
+  - id: a
+    text: Omdat menu's nooit getest kunnen worden.
+  - id: b
+    text: Omdat een leerlijn alleen via de database mag worden toegevoegd.
+  - id: c
+    text: Omdat ook andere paden zoals openen, toewijzen, antwoorden en voortgang geraakt kunnen worden.
+  - id: d
+    text: Omdat een menu geen onderdeel van software is.
+  answer: c
+  explanation: Zichtbaarheid is maar één deel van de volledige gebruikers- en gegevensstroom.
+- id: ai-samenwerken.m03.q06
+  type: open
+  prompt: Maak voor een kleine softwarewijziging die jij kent een eenvoudig pad van onderdelen die mogelijk geraakt worden. Gebruik pijlen.
+  sample_answer: 'Bijvoorbeeld: formulier → route → validatie → database → bevestigingspagina.'
+  keywords:
+  - pad
+  - invoer
+  - uitvoer
+- id: ai-samenwerken.m03.q07
+  type: truefalse
+  prompt: Je moet vóór iedere programmeeropdracht alle gevolgen van een wijziging volledig kunnen voorspellen.
+  answer: false
+  explanation: Volledige kennis vooraf is meestal onmogelijk. Het doel is relevante afhankelijkheden en onzekerheden bewust onderzoeken.
+- id: ai-samenwerken.m03.q08
+  type: open
+  prompt: Wat zou jij voortaan aan een AI vragen vóór je haar code laat maken voor een bestaand softwareproject?
+  sample_answer: Help me eerst bepalen welke bestaande onderdelen en afhankelijkheden geraakt kunnen worden en welke aannames we moeten controleren.
+  keywords:
+  - onderzoek
+  - afhankelijkheden
+  - aannames

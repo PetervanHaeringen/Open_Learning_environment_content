@@ -1,0 +1,35 @@
+id: softwaretesten.m10
+track_id: softwaretesten
+slug: module10
+module_slug: softwaretesten.m10
+
+title: Black-box testtechnieken
+description: Equivalentieklassen, grenswaarde-analyse, beslissingstabellen en toestandsovergangen — testgevallen afleiden zonder in de code te kijken.
+
+order: 10
+level: intermediate
+status: active
+version: 0.1.0
+estimated_minutes: 60
+spoor: foundation
+
+learning_objectives:
+  - Uitleggen wat black-box testen onderscheidt van white-box testen
+  - Equivalentieklassen herkennen en gebruiken om testgevallen te kiezen
+  - Grenswaarde-analyse toepassen op geordende invoer
+  - Een beslissingstabel opstellen voor gecombineerde voorwaarden
+  - Een eenvoudige toestandsovergangstest beschrijven
+
+prerequisites:
+  - softwaretesten.m04
+
+tags:
+  - softwaretesten
+  - black-box
+  - testtechnieken
+  - equivalentieklassen
+  - grenswaarde-analyse
+  - testen
+
+next_module: module11
+template_type: lesson

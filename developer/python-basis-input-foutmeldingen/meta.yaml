@@ -1,0 +1,30 @@
+id: developer.python.basis.m08
+track_id: developer
+slug: python-basis-input-foutmeldingen
+
+title: Python — Input & Foutmeldingen lezen
+description: Werken met invoer van de gebruiker, en een Python-traceback leren lezen als aanwijzing in plaats van struikelblok.
+
+order: 16
+level: beginner
+status: active
+version: 1.0.0
+estimated_minutes: 25
+
+learning_objectives:
+  - Invoer van de gebruiker kunnen opvragen met input()
+  - Weten waarom input() altijd een string teruggeeft, en hoe je dat omzet
+  - Een Python-traceback kunnen lezen om te vinden waar en waarom iets misging
+
+prerequisites:
+  - python-basis-lists-dictionaries
+
+tags:
+  - python
+  - basis
+  - input
+  - foutmeldingen
+  - debuggen
+
+next_module: eindopdracht
+template_type: lesson

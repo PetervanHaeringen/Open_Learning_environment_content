@@ -1,0 +1,77 @@
+questions:
+  - id: softwaretesten.m10.q01
+    type: mcq
+    prompt: "Wat kenmerkt black-box testen?"
+    options:
+      - id: a
+        text: "Je leidt testgevallen af door naar de interne code te kijken"
+      - id: b
+        text: "Je test het gedrag tegen de specificatie, zonder in de code te kijken"
+      - id: c
+        text: "Het kan alleen door de ontwikkelaar zelf gedaan worden"
+      - id: d
+        text: "Het werkt alleen op volledig geautomatiseerde tests"
+    answer: b
+    explanation: "Bij black-box testen behandel je het programma als een zwarte doos: je toetst het beloofde gedrag, niet de interne werking."
+
+  - id: softwaretesten.m10.q02
+    type: mcq
+    prompt: "Een veld accepteert leeftijden van 18 tot en met 65. Welke waarden zijn het meest interessant volgens grenswaarde-analyse?"
+    options:
+      - id: a
+        text: "30 en 40"
+      - id: b
+        text: "0 en 100"
+      - id: c
+        text: "17, 18, 65 en 66"
+      - id: d
+        text: "Alleen 18"
+    answer: c
+    explanation: "De randen zijn het kwetsbaarst. Net onder en net op elke grens (17/18 en 65/66) vangt de klassieke 'net wel / net niet'-fout."
+
+  - id: softwaretesten.m10.q03
+    type: truefalse
+    prompt: "Bij equivalentieklassen hoef je ongeldige invoer niet te testen, alleen geldige."
+    answer: false
+    explanation: "Juist de ongeldige klassen zijn belangrijk: een programma dat goede invoer verwerkt maar crasht op slechte invoer, is nog steeds stuk."
+
+  - id: softwaretesten.m10.q04
+    type: mcq
+    prompt: "Een kortingsregel hangt af van twee voorwaarden (lid ja/nee, bestelling boven 50 euro ja/nee). Hoeveel combinaties dekt een volledige beslissingstabel?"
+    options:
+      - id: a
+        text: "2"
+      - id: b
+        text: "3"
+      - id: c
+        text: "4"
+      - id: d
+        text: "8"
+    answer: c
+    explanation: "Twee voorwaarden die elk waar of onwaar kunnen zijn, geven 2 x 2 = 4 combinaties."
+
+  - id: softwaretesten.m10.q05
+    type: truefalse
+    prompt: "Grenswaarde-analyse is bruikbaar bij een keuze tussen de kleuren rood, groen en blauw."
+    answer: false
+    explanation: "Grenswaarde-analyse werkt alleen bij geordende invoer, waar 'groter' en 'kleiner' betekenis hebben. Kleuren zijn ongeordend, dus er bestaat geen rand."
+
+  - id: softwaretesten.m10.q06
+    type: mcq
+    prompt: "Waarom test een goede tester bij toestandsovergangen juist ook de verboden acties?"
+    options:
+      - id: a
+        text: "Omdat verboden acties nooit voorkomen"
+      - id: b
+        text: "Omdat daar vaak de gevaarlijkste bugs zitten, zoals een verzonden bestelling die toch geannuleerd kan worden"
+      - id: c
+        text: "Omdat het examen dat verplicht stelt"
+      - id: d
+        text: "Omdat geldige overgangen niet getest hoeven worden"
+    answer: b
+    explanation: "Een systeem dat een ongeldige overgang toch toestaat, kan tot echte problemen leiden. Daarom test je expliciet of verboden acties netjes geweigerd worden."
+
+  - id: softwaretesten.m10.q07
+    type: open
+    prompt: "Je test een invoerveld voor een bestelaantal dat tussen 1 en 100 stuks moet liggen. Beschrijf welke equivalentieklassen en welke grenswaarden je zou kiezen."
+    explanation: "Voorbeeldantwoord: drie equivalentieklassen — te laag (0 en lager), geldig (1 t/m 100), te hoog (101 en hoger). Grenswaarden rond de randen: 0/1 aan de onderkant en 100/101 aan de bovenkant. Eén waarde uit het midden (bv. 50) dekt de geldige klasse af."
