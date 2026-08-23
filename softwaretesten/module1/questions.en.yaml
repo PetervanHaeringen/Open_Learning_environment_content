@@ -1,0 +1,44 @@
+questions:
+
+  - id: softwaretesten.m01.q01
+    type: mcq
+    prompt: What is the main goal of software testing?
+
+    options:
+      - id: a
+        text: Proving that software is free of errors
+      - id: b
+        text: Investigating whether software works as expected
+      - id: c
+        text: Making software faster
+
+    answer: b
+
+    hint: Think about behavior and quality.
+
+    feedback:
+      correct: Well spotted.
+      incorrect: Not quite yet.
+
+    explanation: Testing helps make quality visible.
+
+  - id: softwaretesten.m01.q02
+    type: truefalse
+    prompt: Testing can prove that software is completely free of errors.
+
+    answer: false
+
+    explanation: Testing can reveal errors, not prove their absence.
+
+  - id: softwaretesten.m01.q03
+    type: open
+    prompt: Name one example of something you would check as a tester.
+
+    sample_answer: For example, whether a button works.
+
+    keywords:
+      - button
+      - form
+      - error message
+
+    explanation: Look at behavior that matters to users.

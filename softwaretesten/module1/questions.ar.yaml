@@ -1,0 +1,44 @@
+questions:
+
+  - id: softwaretesten.m01.q01
+    type: mcq
+    prompt: ما هو الهدف الرئيسي من اختبار البرمجيات؟
+
+    options:
+      - id: a
+        text: إثبات أن البرمجية خالية من الأخطاء
+      - id: b
+        text: التحقّق مما إذا كانت البرمجية تعمل كما هو متوقع
+      - id: c
+        text: جعل البرمجية أسرع
+
+    answer: b
+
+    hint: فكّر في السلوك والجودة.
+
+    feedback:
+      correct: ملاحظة جيدة.
+      incorrect: ليس تمامًا بعد.
+
+    explanation: الاختبار يساعد في إظهار الجودة.
+
+  - id: softwaretesten.m01.q02
+    type: truefalse
+    prompt: يمكن للاختبار أن يثبت أن البرمجية خالية تمامًا من الأخطاء.
+
+    answer: false
+
+    explanation: يمكن للاختبار أن يكشف الأخطاء، لا أن يثبت غيابها.
+
+  - id: softwaretesten.m01.q03
+    type: open
+    prompt: اذكر مثالًا واحدًا لشيء قد تتحقّق منه كمختبِر.
+
+    sample_answer: على سبيل المثال، هل يعمل زر ما.
+
+    keywords:
+      - زر
+      - نموذج
+      - رسالة خطأ
+
+    explanation: انظر إلى السلوك الذي يهم المستخدمين.

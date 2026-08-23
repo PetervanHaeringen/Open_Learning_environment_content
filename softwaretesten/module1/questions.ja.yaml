@@ -1,0 +1,44 @@
+questions:
+
+  - id: softwaretesten.m01.q01
+    type: mcq
+    prompt: ソフトウェアテストの主な目的は何ですか？
+
+    options:
+      - id: a
+        text: ソフトウェアにバグがないことを証明すること
+      - id: b
+        text: ソフトウェアが期待通りに動作するかを調べること
+      - id: c
+        text: ソフトウェアを高速化すること
+
+    answer: b
+
+    hint: 振る舞いと品質について考えてみましょう。
+
+    feedback:
+      correct: よく見つけましたね。
+      incorrect: まだ少し違います。
+
+    explanation: テストは品質を目に見える形にする助けになります。
+
+  - id: softwaretesten.m01.q02
+    type: truefalse
+    prompt: テストによって、ソフトウェアが完全にバグがないことを証明できる。
+
+    answer: false
+
+    explanation: テストはバグを明らかにすることはできますが、バグがないことを証明することはできません。
+
+  - id: softwaretesten.m01.q03
+    type: open
+    prompt: テスターとして確認するであろう例を一つ挙げてください。
+
+    sample_answer: 例えば、ボタンが機能するかどうかなど。
+
+    keywords:
+      - ボタン
+      - フォーム
+      - エラーメッセージ
+
+    explanation: ユーザーにとって重要な振る舞いに注目しましょう。

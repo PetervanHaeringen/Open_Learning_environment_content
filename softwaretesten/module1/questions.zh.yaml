@@ -1,0 +1,44 @@
+questions:
+
+  - id: softwaretesten.m01.q01
+    type: mcq
+    prompt: 软件测试最主要的目标是什么？
+
+    options:
+      - id: a
+        text: 证明软件完全没有错误
+      - id: b
+        text: 调查软件是否按照预期运作
+      - id: c
+        text: 让软件运行得更快
+
+    answer: b
+
+    hint: 想一想行为和质量。
+
+    feedback:
+      correct: 观察得很好。
+      incorrect: 还不太对。
+
+    explanation: 测试有助于让质量变得可见。
+
+  - id: softwaretesten.m01.q02
+    type: truefalse
+    prompt: 测试可以证明软件完全没有错误。
+
+    answer: false
+
+    explanation: 测试可以揭示错误，但不能证明错误不存在。
+
+  - id: softwaretesten.m01.q03
+    type: open
+    prompt: 举一个你作为测试人员会去检查的例子。
+
+    sample_answer: 例如，检查某个按钮是否有效。
+
+    keywords:
+      - 按钮
+      - 表单
+      - 错误提示
+
+    explanation: 关注那些对用户来说重要的行为。

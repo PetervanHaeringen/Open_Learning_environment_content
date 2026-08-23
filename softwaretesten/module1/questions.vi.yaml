@@ -1,0 +1,44 @@
+questions:
+
+  - id: softwaretesten.m01.q01
+    type: mcq
+    prompt: Mục tiêu chính của kiểm thử phần mềm là gì?
+
+    options:
+      - id: a
+        text: Chứng minh rằng phần mềm hoàn toàn không có lỗi
+      - id: b
+        text: Tìm hiểu xem phần mềm có hoạt động như mong đợi hay không
+      - id: c
+        text: Làm cho phần mềm chạy nhanh hơn
+
+    answer: b
+
+    hint: Hãy nghĩ về hành vi và chất lượng.
+
+    feedback:
+      correct: Nhận xét tốt.
+      incorrect: Chưa đúng hẳn.
+
+    explanation: Kiểm thử giúp làm cho chất lượng trở nên rõ ràng.
+
+  - id: softwaretesten.m01.q02
+    type: truefalse
+    prompt: Kiểm thử có thể chứng minh rằng phần mềm hoàn toàn không có lỗi.
+
+    answer: false
+
+    explanation: Kiểm thử có thể phát hiện lỗi, chứ không thể chứng minh sự vắng mặt của lỗi.
+
+  - id: softwaretesten.m01.q03
+    type: open
+    prompt: Hãy nêu một ví dụ về điều mà bạn sẽ kiểm tra với tư cách là một tester.
+
+    sample_answer: Ví dụ như liệu một nút bấm có hoạt động hay không.
+
+    keywords:
+      - nút bấm
+      - biểu mẫu
+      - thông báo lỗi
+
+    explanation: Hãy chú ý đến hành vi quan trọng đối với người dùng.

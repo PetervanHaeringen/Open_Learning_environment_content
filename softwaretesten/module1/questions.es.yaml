@@ -1,0 +1,44 @@
+questions:
+
+  - id: softwaretesten.m01.q01
+    type: mcq
+    prompt: ¿Cuál es el objetivo principal del testing de software?
+
+    options:
+      - id: a
+        text: Demostrar que el software no tiene errores
+      - id: b
+        text: Investigar si el software funciona como se espera
+      - id: c
+        text: Hacer que el software sea más rápido
+
+    answer: b
+
+    hint: Piensa en el comportamiento y la calidad.
+
+    feedback:
+      correct: Bien visto.
+      incorrect: Todavía no del todo.
+
+    explanation: El testing ayuda a hacer visible la calidad.
+
+  - id: softwaretesten.m01.q02
+    type: truefalse
+    prompt: El testing puede demostrar que el software está completamente libre de errores.
+
+    answer: false
+
+    explanation: El testing puede revelar errores, no demostrar su ausencia.
+
+  - id: softwaretesten.m01.q03
+    type: open
+    prompt: Menciona un ejemplo de algo que comprobarías como tester.
+
+    sample_answer: Por ejemplo, si un botón funciona.
+
+    keywords:
+      - botón
+      - formulario
+      - mensaje de error
+
+    explanation: Fíjate en el comportamiento que importa a los usuarios.
